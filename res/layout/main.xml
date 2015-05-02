@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" android:background="@color/white">
+    
+    <TextView
+        android:id="@+id/textViewPhoneNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Phone_Number"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:id="@+id/editTextPhoneNo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:inputType="phone" />
+     
+     <TextView
+        android:id="@+id/textViewSMS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/SMS_Message"
+        android:textColor="#000000" />
+     
+    <EditText 
+        android:id="@+id/EditText01" 
+        android:layout_width="fill_parent"
+		android:text="@string/Text_goes_here" 
+		android:contentDescription="@string/Recognition_results"
+		android:layout_height="wrap_content" 
+		android:layout_weight="1"/>
+
+	<TextView 
+	    android:layout_width="wrap_content" 
+	    android:layout_height="wrap_content" 
+	    android:id="@+id/PerformanceText" 
+	    android:text="@string/performance_text" 
+	    android:layout_gravity="center_horizontal"/>
+	
+	<Button android:id="@+id/Button01" 
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content" 
+		android:layout_weight="0"
+		android:layout_gravity="center_horizontal" 
+		android:text="@string/Hold_and_Speak"/>
+	
+	<Button
+	        android:id="@+id/buttonSend"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/Send" />
+
+
+</LinearLayout>

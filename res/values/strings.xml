@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="hello">Hello World, PocketSphinxAndroidDemo!</string>
+    <string name="app_name">PocketSphinx SMS</string>
+	<color name="white">#FFF</color>
+	<string name="performance_text">0.00 seconds 0.00 xRT</string>
+	<string name="Recognition_results"> Recognition results  </string>
+	<string name="Text_goes_here"> Text goes here....  </string>
+	<string name="Phone_Number"> Enter Phone Number : </string>
+	<string name="SMS_Message"> Enter SMS Message : </string>
+	<string name="Hold_and_Speak">Hold and Speak</string>
+	<string name="Send">Send </string>
+</resources>
